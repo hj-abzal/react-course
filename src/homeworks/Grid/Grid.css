@@ -1,0 +1,50 @@
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas:
+"a b b c"
+"a y r g"
+"a u o g";
+}
+
+.element1 {
+    grid-area: a;
+    background-color: green;
+}
+
+.element2 {
+    grid-area: b;
+    background-color: green;
+}
+
+.element3 {
+    grid-area: c;
+    background-color: red;
+}
+
+.element4 {
+    grid-area: y;
+    background-color: orange;
+}
+
+.element5 {
+    grid-area: r;
+    background-color: red;
+}
+
+.element6 {
+    grid-area: u;
+    background-color: red;
+}
+
+.element7 {
+    grid-area: o;
+    background-color: orange;
+}
+
+.element8 {
+    grid-area: g;
+    background-color: green;
+}

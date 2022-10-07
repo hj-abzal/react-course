@@ -1,34 +1,40 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is dfsdfdsfsdf {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </div>
-  )
+    return (
+        <div className="app">
+            <div className="header">
+                <img src="https://www.edigitalagency.com.au/wp-content/uploads/Facebook-logo-blue-circle-large-transparent-png.png" alt=""/>
+                <h3>Programming life</h3>
+                <button>Login</button>
+            </div>
+            <div className="nav">
+                <ul>
+                    <li><a href="/personal_info">Personal info</a></li>
+                    <li><a href="/friends">Friends</a></li>
+                    <li><a href="/projects">Projects</a></li>
+                    <li><a href="/messages">Messages</a></li>
+                </ul>
+            </div>
+            <div className="content">
+                <div className="aboutMe">
+                    <img src="https://avatars.githubusercontent.com/u/78753207?v=4" alt=""/>
+                    <div>
+                        <h3>My name is Abzal Suan</h3>
+                        <p>I am front-end developer!</p>
+                    </div>
+                </div>
+                <div className="education">
+                    <h3>Moscow Polytechnic University 2017-2021</h3>
+                    <p>Electrical engineering</p>
+                </div>
+                <div className="work">
+                    <h3>Jusan Bank 2022-present</h3>
+                    <p>Middle Front-end dev.</p>
+                </div>
+            </div>
+        </div>
+    )
 }
 
 export default App

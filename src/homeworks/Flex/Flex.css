@@ -1,0 +1,49 @@
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.element-wrapper {
+    width: 500px;
+    height: 90px;
+    background-color: purple;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.flex-element {
+    width: 100px;
+    height: 70px;
+    background-color: orange;
+    border-radius: 4px;
+}
+
+
+.flex-element-middle {
+    width: 70px;
+    margin: 0 10px;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
